@@ -1,4 +1,4 @@
-<p style="color: red; font-weight: bold; font-size: 1.25em;">
+<p align="center" style="color: red; font-weight: bold; font-size: 2em; font-style: italic; text-decoration: underline;">
 Do not spend any money on a bankrbot SWARM token.
 </p>
 
