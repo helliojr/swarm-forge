@@ -3,6 +3,7 @@
 - At startup, discover and remember the branch or worktree assigned to your role.
 - If your assigned worktree is `master`, work in the main project checkout on its current branch; do not expect or create a `.worktrees/<role>` directory for that role.
 - Work only in your assigned branch or worktree.
+- Do not inspect, diff, merge, or base work on another branch unless that branch is specifically named in a handoff or explicit user instruction.
 - Use `./tmp/` in your assigned worktree for temporary files; do not use `/tmp`.
 - Use `./swarmtools/notify-agent.sh` from your assigned checkout or worktree for handoffs between agents. Startup creates this helper locally, using a wrapper in linked worktrees. Do not rely on PATH lookup.
 - Start every handoff message with: `Re-read your role and constitution.`
