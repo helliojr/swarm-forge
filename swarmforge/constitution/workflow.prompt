@@ -17,5 +17,5 @@
   - Use priority `50` for normal messages unless a role prompt or explicit user instruction sets a different priority.
   - Finish the current job before acting on queued messages.
   - After the current job is complete and any required handoff has been sent, process queued message files in sorted filename order.
-  - Delete each queued message file only after processing it.
+  - Delete each queued message file only after processing it. Do not use `rm -f`; use a non-forced deletion command so queue cleanup does not trigger escalation.
 - If the expected git layout or assigned worktree is missing, stop and report instead of silently working in the wrong place.
